@@ -1,0 +1,921 @@
+@font-face{
+    font-family: 'NotoSans';
+    src: url(fonts\RobotoCondensed-VariableFont_wght.ttf);
+}
+a{
+    color: black; 
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+.Header_Container{
+    position: fixed;
+
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    box-shadow: 10px 0px 11px 1px  rgb(22, 6, 6);
+}
+.Logo{
+    margin-left: 40px;
+    margin-top: 12px;
+}
+ul{
+    list-style-type: none;
+    display: flex;  
+    
+}
+.Navigation_Bar li{
+    flex-direction: row;
+    padding-right: 27px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;   
+}
+.Navigation_Bar li:hover{
+    font-weight: 400;
+}
+.Icons_At_Header {
+    width: 10%;
+    margin-top: 25px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.ProfilePhoto{
+    margin-top:  3px; 
+    margin-left: 10px; 
+
+}
+.FlagIcon{
+    margin-top:  3px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.CartImage{
+    margin-top:  -5px; 
+    margin-left: 20px;
+    
+}
+.FirstBkg{
+    margin-top: 60px;
+    width: 100%;
+    height: 478px;
+    background-color: rgb(117, 115, 214);
+    object-fit: cover;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.SecondBkg{
+    display: flex;
+    flex-direction:row;
+    background-color: aqua;
+    width: 100%;
+    height: 600px;
+}
+.SecondBkgleft{
+    width: 60%;
+    height: 600px;
+    padding: 6px;
+
+background-color:white;
+}
+.SecondBkglefttop{
+    width: 99%;
+    height: 100px;
+   
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  font-size: 55px;
+
+}
+.SecondBkgleftbottom{
+    width: 99%;
+    height: 400px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -30px;
+    
+}
+
+.box1{
+    width: 110px;
+    height: 100px;
+    margin-left: 146px;
+    margin-top: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(150, 147, 147);
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px 5px  rgb(161, 159, 159);
+
+   
+}
+.box2{
+    width: 110px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(150, 147, 147);
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px 5px  rgb(161, 159, 159);
+    
+}
+.box3{
+    width: 110px;
+    height: 100px;
+    margin-left: 105px;
+    margin-top: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(150, 147, 147);
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px 5px  rgb(161, 159, 159);
+}
+.box4{
+    width: 110px;
+    height: 100px;
+    margin-left: 146px;
+    margin-top: -20px;
+    background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(150, 147, 147);
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px 5px  rgb(161, 159, 159);
+}
+.box5{
+    width: 110px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: -20px;
+    background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(150, 147, 147);
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px 5px  rgb(161, 159, 159);
+}
+.box6{
+    width: 110px;
+    height: 100px;
+    margin-left: 105px;
+    margin-top: -20px;
+    background-color: white;
+    border-style: solid;
+    border-width: .1px;
+    border-color: rgb(150, 147, 147);
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px 5px  rgb(161, 159, 159);
+}
+.gridimg1{
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.txtbox1{
+    width: 210px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 6px;
+  
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 22px;
+    text-align: center;
+}
+.txtbox2{
+    width: 210px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 6px;
+    
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 22px;
+    text-align: center;
+    
+}
+.txtbox3{
+    width: 210px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 6px;
+    
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 22px;
+    text-align: center
+}
+.txtbox4{
+    width: 210px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 16px;
+    
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 22px;
+    text-align: center;
+    
+}
+.txtbox5{
+    width: 210px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 16px;
+    
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 22px;
+    text-align: center;
+    
+}
+.txtbox6{
+    width: 210px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 16px;
+    
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 22px;
+    text-align: center;
+    
+}
+.gridimg2{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.SecondBkgright{
+    background-color: white;
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.SecondBkgrightelement1{
+    width: 190px;
+    height: 100px;
+    margin-left: 200px;
+    background-color: white;
+    
+  
+  
+}
+.SecondBkgrightelement1text{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  font-size: 45px;
+}
+.SecondBkgrightelement2{
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 25px;
+    background-color: bisque;
+    object-fit: contain;
+   
+}
+.SecondBkgrightelement3{
+    width: 190px;
+    height: 50px;
+    background-color: white;
+    margin-left: 201px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border-color: red;
+    border-style: solid;
+    border-width: 1.5px;
+}
+.SecondBkgrightelement3text{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 450;
+    font-style: normal;  
+      font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+  color: red;
+
+}
+.SecondBkgrightelement4{
+    width: 150px;
+    height: 30px;
+    margin-left: 220px;
+    margin-top: 10px;
+    background-color: white;
+   
+}
+#SecondBkgrightelement4img{
+margin-left: 20px;
+}
+.SecondBkgrightelement5{
+    width: 35px;
+    height: 35px;
+    margin-left: 100px;
+    border-radius: 50%;
+    margin-top: -270px;
+    background-color: white;
+}
+#SecondBkgrightelement5text{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+      font-size: 30px;
+  color:black;
+  margin-top: -1px;margin-left: 7px;
+}
+.SecondBkgrightelement6{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 455px;
+    margin-top: -37px;
+}
+#SecondBkgrightelement6text{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+      font-size: 30px;
+  color:black;
+  margin-top: -1px;margin-left: 7px;
+}
+#imgright{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 25px;
+    
+}
+.ThirdBkg{
+    width: 100%;
+    height: 650px;
+    background-color: aqua;
+}
+.ThirdBkgtop{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+
+}
+.ThirdBkgbottom{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 300px 300px ;
+    grid-template-columns: 550px 350px 380px;
+   gap: 20px;
+}
+.bx1{
+    background-color: brown;
+   grid-column: 1/2;
+   grid-row: 1/3;
+   margin-top: 25px;
+   margin-left: 45px;
+   border-radius: 20px;
+}
+.bx2{
+    background-color: brown;
+    margin-top: 25px;
+   margin-left: 10px;
+   border-radius: 20px;
+}
+.bx3{
+    background-color: brown;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    margin-top: 25px;
+   margin-left: 10px;
+   border-radius: 20px;
+   
+   
+   
+}
+.bx4{
+    background-color: brown;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    
+}
+
+    
+
+#bximg1txt{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+    
+
+#bximg2txt{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.bximg{
+    
+    width: 100%;
+    object-fit: contain;
+    
+}
+.bximg3{
+    height: 600px;
+    width: 370px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+#bximg3txt{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+#bximg4txt{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: -95px;
+    margin-left: 20px;
+}
+.ThirdBkgtop{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  font-size: 55px;
+}
+.ForthBkg{
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.ForthBkg1{
+width: 100%;
+height: 75px;
+background-color: white;
+text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  font-size: 55px;
+}
+.ForthBkg2{
+    width: 100%;
+    height: 55px;
+    background-color:white;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    
+    
+    }
+    .ForthBkg3{
+        width: 100%;
+        height: 25px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        
+        
+        }
+
+        .ForthBkg4{
+            width: 100%;
+            height: 565px;
+            background-color:white;
+            display: flex;
+            flex-direction: row;
+            
+            }
+.ForthBkg31{
+    margin-left: 80px;
+    font-size: 19px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    border-bottom: solid;
+}
+.ForthBkg3one{
+    
+    font-size: 19px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    border-bottom: solid;
+    margin-left: 150px;
+    color: red;
+}
+.FifthBkg{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(226, 34, 34);
+    box-shadow:  1px 1px 11px 1px  rgb(53, 48, 48);
+
+}
+.FifthBkg1{
+    width: 100%;
+    height: 90px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.FifthBkg2{
+    width: 100%;
+    height: 25px;
+    margin-top: -20px;
+    
+    
+}
+.FifthBkg3{
+    width: 100%;
+    height:100px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.FifthBkg4{
+    width: 35px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: bisque;
+    box-shadow: 0px 0px 11px 0px  rgb(22, 6, 6);
+    z-index: 10;
+}
+.FifthBkg{
+    text-align: center;
+    font-size: 19px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    color: white;
+    
+}
+
+.Fifthform{
+width: 250px;
+height: 27px;
+border-bottom: solid;
+border-color: white;
+border-width: 1px;
+margin-left: 60px;
+text-align: left;
+}
+.FifthBkg4{
+    margin-left: 630px;
+    padding-top: 10px;margin-top: 10px;
+   
+}
+.SixBkg{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.SixBkg1{
+    width: 30%;
+    height: 600px;
+    background-color:white;
+    
+}
+.SixBkg2{
+    width: 35%;
+    height: 680px;
+    background-color: white;
+    margin-top: 20px;
+}.SixBkg3{
+    width: 25%;
+    height: 680px;
+    background-color: white;
+}
+.Sixbkg11{
+    margin-left: 20px;
+}
+
+
+.Sixbkg12{font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  font-size: 55px;
+  margin-left: 20px;
+
+}
+.Sixbkg13{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Sixbkh21{
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(151, 148, 148);
+    box-shadow: 0px 0px 10px 0px  rgb(161, 159, 159);
+    border-radius: 5px;
+}
+.Sixbkh2txt1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  font-size: 55px;
+  margin-left: 20px;
+  color: rgb(206, 31, 31);
+  margin-top: 30px;
+
+
+}
+.Sixbkh2txt2{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    color: black;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;}
+    
+    .Sixbkh22{
+        width: 200px;
+        height: 170px;
+        background-color: white;
+        margin-top: -650px;
+        margin-left: 270px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(151, 148, 148);
+        box-shadow: 0px 0px 10px 0px  rgb(161, 159, 159);
+        border-radius: 5px;
+    }
+    .Sixbkh23{
+        width: 200px;
+        height: 170px;
+        background-color: white;
+        margin-top: 50px;
+        margin-left: 270px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(151, 148, 148);
+        box-shadow: 0px 0px 10px 0px  rgb(161, 159, 159);
+        border-radius: 5px;
+    }
+    #grdimg{
+        margin-top: 80px;
+    }
+    .SeventhBkg3{
+        width: 100%;
+        height: 25px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 70px;
+        
+        
+        
+        }
+   .bximg1txt7{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: -100px;
+    margin-left: 20px;
+   }
+   .sevenbxtxt{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: -10px;
+    
+   }
+   .Eighthbkg{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 290px 290px ;
+    grid-template-columns: 48% 48%;
+    gap: 10px;
+
+   }
+   .eightbx1{
+    background-color: brown;
+    grid-row: 1/3;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 25px;
+    
+
+   }
+   .eightbx2{
+    background-color: brown;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 25px;
+   }
+   .eightbx3{
+    background-color: brown;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 25px;
+   }
+   #imgeight1{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;}
+    .footerbkg{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(59, 59, 59);margin-top: 25px;
+    }
+    .footer1{
+        width: 100%;
+        height:350px ;
+       background-color: rgb(59, 59, 59);
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer2{
+        width: 100%;
+        height:150px ;
+        background-color:rgb(59, 59, 59);
+    }
+    .footer3{
+        width: 90%;
+        height:65px ;
+        background-color:rgb(59, 59, 59);
+        margin-left: 5%;
+        text-align: center;
+        padding-top: 20px;
+        border-top: solid;
+        border-color: white;
+        border-width: 1px;
+
+    }
+    .footer11{
+        width: 23%;
+        height: 330px;
+       background-color: rgb(59, 59, 59);
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 45px;
+    }
+    .footerlisttitle
+    { margin-top: 25px;
+        margin-left: 100px;
+        font-family: "Fira Sans Condensed", sans-serif;
+        
+    font-weight: 600;
+    color: white;
+    font-style: normal; 
+    font-size: 32px;}
+    .lastlist{
+        list-style-type: none;
+        margin-left: 100px;
+        color: rgb(124, 120, 120);
+        margin-top: 15px;
+        font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 350;
+    font-style: normal; 
+    font-size: 18px;
+    }
+    li{
+        margin-top: 5px;
+    }
+    .footer2{
+        display: flex;
+
+    }
+    .footer2left{
+        width: 450px;
+        height: 150px;
+        background-color:rgb(59, 59, 59);
+    }
+    .footer2right{
+        width: 440px;
+        height: 150px;
+        background-color:rgb(59, 59, 59);
+        margin-left: 450px;
+    }
+    .footerimg{
+         margin-left: 80px;
+         margin-top: 50px;
+    }
+    .footer2rightimg{
+        margin-top: 50px;
+        margin-left: 40px;
+
+    }
+    #lastline{
+        font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 18px;
+    text-align:center;
+    color: white;
+    
+    }
+    .floatingfb{
+        width: 45px;
+        height: 90px;
+    
+        z-index: 10;
+       position: fixed;
+       margin-left: 1320px;
+       margin-top: 430px;
+      
+     
+    }
+    #stickfbimg{
+        width: 40px;
+        object-fit: contain;
+        margin-left: -5px;
+         border-radius: 10px 0px 0px 10px;
+
+    }
+    
